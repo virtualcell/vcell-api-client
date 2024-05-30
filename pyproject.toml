@@ -1,12 +1,14 @@
-[tool]
 [tool.poetry]
-name = "vcell-api-client"
+name = "vcell_api_client"
 version = "0.1.0"
-homepage = "https://github.com/jcschaff/vcell-api-client"
-description = "Client library to connect to VCell remote API."
-authors = ["James Schaff <schaff@uchc.edu>"]
+homepage = "https://github.com/virtualcell/vcell-api-client"
+description = "VCell API"
+authors = ["VCell API Support <vcell_support@uchc.com>", "James Schaff <schaff@uchc.edu>"]
 readme = "README.md"
-license =  "MIT"
+repository = "https://github.com/GIT_USER_ID/GIT_REPO_ID"
+keywords = ["OpenAPI", "OpenAPI-Generator", "VCell API"]
+include = ["vcell_api_client/py.typed"]
+license = "MIT"
 classifiers=[
     'Development Status :: 2 - Pre-Alpha',
     'Intended Audience :: Developers',
@@ -24,7 +26,12 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.6.2,<4.0"
+python = ">=3.9,<4.0"
+
+urllib3 = ">= 1.25.3"
+python-dateutil = ">=2.8.2"
+pydantic = ">=2"
+typing-extensions = ">=4.7.1"
 
 black  = { version = "^21.5b2", optional = true}
 isort  = { version = "^5.8.0", optional = true}
@@ -103,3 +110,10 @@ skip_gitignore = true
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+#[build-system]
+#requires = ["setuptools"]
+#build-backend = "setuptools.build_meta"
+#
+#[tool.pylint.'MESSAGES CONTROL']
+#extension-pkg-whitelist = "pydantic"

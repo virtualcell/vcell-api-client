@@ -1,7 +1,6 @@
 # coding: utf-8
 
 # flake8: noqa
-
 """
     VCell API
 
@@ -15,27 +14,7 @@
 """  # noqa: E501
 
 
-__version__ = "0.1.0"
-
-# import apis into sdk package
-from vcell_api_client.api.admin_resource_api import AdminResourceApi
-from vcell_api_client.api.bio_model_resource_api import BioModelResourceApi
-from vcell_api_client.api.hello_world_api import HelloWorldApi
-from vcell_api_client.api.publication_resource_api import PublicationResourceApi
-from vcell_api_client.api.users_resource_api import UsersResourceApi
-
-# import ApiClient
-from vcell_api_client.api_response import ApiResponse
-from vcell_api_client.api_client import ApiClient
-from vcell_api_client.configuration import Configuration
-from vcell_api_client.exceptions import OpenApiException
-from vcell_api_client.exceptions import ApiTypeError
-from vcell_api_client.exceptions import ApiValueError
-from vcell_api_client.exceptions import ApiKeyError
-from vcell_api_client.exceptions import ApiAttributeError
-from vcell_api_client.exceptions import ApiException
-
-# import models into sdk package
+# import models into model package
 from vcell_api_client.models.acces_token_representation_record import AccesTokenRepresentationRecord
 from vcell_api_client.models.bio_model import BioModel
 from vcell_api_client.models.biomodel_ref import BiomodelRef
