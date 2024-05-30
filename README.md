@@ -3,16 +3,16 @@
 
 [![pypi](https://img.shields.io/pypi/v/vcell-api-client.svg)](https://pypi.org/project/vcell-api-client/)
 [![python](https://img.shields.io/pypi/pyversions/vcell-api-client.svg)](https://pypi.org/project/vcell-api-client/)
-[![Build Status](https://github.com/jcschaff/vcell-api-client/actions/workflows/dev.yml/badge.svg)](https://github.com/jcschaff/vcell-api-client/actions/workflows/dev.yml)
-[![codecov](https://codecov.io/gh/jcschaff/vcell-api-client/branch/main/graphs/badge.svg)](https://codecov.io/github/jcschaff/vcell-api-client)
+[![Build Status](https://github.com/virtualcell/vcell-api-client/actions/workflows/python.yml/badge.svg)](https://github.com/virtualcell/vcell-api-client/actions/workflows/python.yml)
+[![codecov](https://codecov.io/gh/virtualcell/vcell-api-client/branch/main/graphs/badge.svg)](https://codecov.io/github/virtualcell/vcell-api-client)
 
 
 
 Client library to connect to VCell remote API
 
 
-* Documentation: <https://jcschaff.github.io/vcell-api-client>
-* GitHub: <https://github.com/jcschaff/vcell-api-client>
+* Documentation: <https://virtualcell.github.io/vcell-api-client>
+* GitHub: <https://github.com/virtualcell/vcell-api-client>
 * PyPI: <https://pypi.org/project/vcell-api-client/>
 * Free software: MIT
 
